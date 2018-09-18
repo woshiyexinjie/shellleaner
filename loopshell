@@ -1,0 +1,6 @@
+#!/bin/bash
+for var in I am xin hello world
+do
+   echo The next string is $var
+done
+echo The final string is $var

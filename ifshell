@@ -1,0 +1,11 @@
+#!/bin/bash
+if HHH
+then
+  echo "i am then one"
+elif  pwd
+  then
+	echo "I am else elif then"
+  else
+	echo "I am else elif  two"
+fi
+

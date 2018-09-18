@@ -1,0 +1,9 @@
+#!/bin/bash
+for (( var1 = 3; var1 < 25; var1++ ))
+do
+       if [ $var1 -gt 10 ]
+       then
+        continue 
+       fi
+       echo "Iteration number: $var1"
+done > out.txt

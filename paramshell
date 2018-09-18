@@ -1,0 +1,16 @@
+#!/bin/bash
+#for (( i = 1; i <= $1 ; i++ )) 
+#do
+#       echo "hello world!"
+#done
+
+
+echo "all params:$*"
+
+echo "all params:$@"
+
+echo "param num:$#"
+
+echo "shell file:$(basename $0)"
+
+echo "hello world $1 !"

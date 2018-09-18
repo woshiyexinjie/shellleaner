@@ -1,0 +1,8 @@
+#!/bin/bash
+param=/root/myshell
+if [ -e $param ]
+then
+  echo "hello xin"
+else
+  echo "I am ok"
+fi
