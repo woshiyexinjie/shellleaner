@@ -1,0 +1,26 @@
+#!/bin/bash
+echo -n "Enter a letter: "
+read name
+echo "Your entry  $name. " 
+
+echo "second method:"
+read -p "Enter a letter:" letter
+echo "Your entry $letter"
+
+echo "third method"
+read -p "Enter two letter:" first second
+echo "Your entry $first $second"
+
+echo "four method"
+read -p "Enter your letter:"
+echo "your enter is:$REPLY"
+
+echo ""
+echo "five method"
+if read -t 5 -p "Please enter age: " age 
+then
+   echo "age:$age"
+else 
+   echo
+   echo "Sorry, too slow!"
+fi
