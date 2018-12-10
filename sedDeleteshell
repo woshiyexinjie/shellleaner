@@ -1,0 +1,11 @@
+#!/bin/bash
+
+sed '3d'  testfile
+sed 'd'  testfile
+sed '2,5d' testfile
+sed '3,$d' testfile 
+sed '/dog2/d' testfile 
+sed '$d' testfile 
+sed '/^The/d' testfile
+sed '/./!d' testfile
+sed '/^$/d' testfile
