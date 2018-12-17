@@ -5,3 +5,14 @@ sed 's/dog/cat/' testfile
 sed -n 's/dog2/dophine/p' testfile
 sed 's/h/o/2' testfile
 sed -n 's!dog2!dophine!p' testfile
+
+
+sed 'y/dog/cat/' testfile 
+sed 'y/dog2/cat/' testfile 
+sed '2c/hello xin ,you are pretty boy' testfile 
+
+
+sed -n 'l'  testfile
+sed '=' testfile
+sed -n  '2,3p' testfile 
+echo 'hello world,xin!' | sed -n '/xin2/p' 
